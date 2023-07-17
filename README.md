@@ -11,11 +11,15 @@ Bağılmılıkların kurulumu (Debian-based için)
 
 SDK'yı indirin:
 
-```mkdir sdk```
- ```git clone https://github.com/ValveSoftware/halflife.git sdk/halflife-master```
+```bash
+mkdir sdk```
+ ```bash
+git clone https://github.com/ValveSoftware/halflife.git sdk/halflife-master```
  Derleme klasörünü hazırlayın:
- ```mkdir build```
- ```cd build```
- ```cmake ..```
+ ```bash
+mkdir build
+ cd build
+ cmake ..```
  Oyunu başlatın ve hileyi enjekte edin (derleme klasöründe olduğunuzdan emin olun).
- ``` ./injector.sh load```
+ ```bash
+ ./injector.sh load```
