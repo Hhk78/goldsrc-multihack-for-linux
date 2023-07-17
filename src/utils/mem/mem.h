@@ -1,0 +1,1 @@
+bool unprotectAddr(void* place);
