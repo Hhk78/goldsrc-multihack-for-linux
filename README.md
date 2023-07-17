@@ -2,7 +2,7 @@
 
 
 ```bash
-sudo dpkg --add-architectur i386 ; sudo apt update
+sudo dpkg --add-architecture i386 ; sudo apt update
 ```
 
 
