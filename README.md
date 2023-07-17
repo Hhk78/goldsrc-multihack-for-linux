@@ -1,9 +1,14 @@
 0. Bağılmılıkların kurulumu (Debian-based için)
-```bash
-sudo dpkg --add-architectur i386 ; sudo apt update```
+
 
 ```bash
-sudo apt install lldb libstdc++-12-dev:i386 libstdc++-11-dev:i386 git make gcc-multilib mesa-common-dev cmake clang```
+sudo dpkg --add-architectur i386 ; sudo apt update
+```
+
+
+```bash
+sudo apt install lldb libstdc++-12-dev:i386 libstdc++-11-dev:i386 git make gcc-multilib mesa-common-dev cmake clang
+```
 
 1. Bu depoyu klonlayın.
 2. SDK'yı indirin:
