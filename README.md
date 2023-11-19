@@ -38,3 +38,4 @@ sudo apt install lldb libstdc++-12-dev:i386 libstdc++-11-dev:i386 git make gcc-m
     ```bash
      ./injector.sh load
     ```
+credits: https://github.com/UnkwUsr/hlhax
