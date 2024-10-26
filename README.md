@@ -9,7 +9,9 @@ sudo dpkg --add-architecture i386 ; sudo apt update
 ```bash
 sudo apt install lldb libstdc++-12-dev:i386 libstdc++-11-dev:i386 git make gcc-multilib mesa-common-dev cmake clang
 ```
-
+```bash
+sudo pacman -S lldb gcc libstdc++ clang git make mesa cmake --needed clang lldb
+```
 1. Bu depoyu klonlayın.
 2. SDK'yı indirin:
 
